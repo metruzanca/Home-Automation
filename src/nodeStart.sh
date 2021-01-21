@@ -1,4 +1,3 @@
 #!/bin/bash
 echo "Running Home-Automation onBoot.js"
-cd /home/ubuntu/home-automation/
-exec "npm run boot"
+/home/ubuntu/.nvm/versions/node/v14.15.4/bin/node /home/ubuntu/home-automation/src/onBoot.js

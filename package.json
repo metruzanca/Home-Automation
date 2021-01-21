@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "boot": "node src/onBoot.js",
-    "boot:setup": "sudo cp src/node-onBoot.service /etc/systemd/system/node-onBoot.service"
+    "boot:setup": "sudo cp src/node-onBoot.service /etc/systemd/system/node-onBoot.service",
+    "postboot:setup": "chmod +x src/nodeStart.sh && chmod +x src/nodeStop.sh"
   },
   "repository": {
     "type": "git",
