@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "boot": "node src/onBoot.js",
-    "boot:setup": "cp src/node-onBoot.conf /etc/init/node-onBoot.conf"
+    "boot:setup": "sudo cp src/node-onBoot.conf /etc/init/node-onBoot.conf"
   },
   "repository": {
     "type": "git",
