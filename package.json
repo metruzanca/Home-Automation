@@ -1,0 +1,24 @@
+{
+  "name": "home-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "onBoot.js",
+  "type": "module",
+  "scripts": {
+    "boot": "node src/onBoot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metruzanca/Home-Automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metruzanca/Home-Automation/issues"
+  },
+  "homepage": "https://github.com/metruzanca/Home-Automation#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  }
+}
