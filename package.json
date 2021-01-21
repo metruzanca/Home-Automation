@@ -5,7 +5,8 @@
   "main": "onBoot.js",
   "type": "module",
   "scripts": {
-    "boot": "node src/onBoot.js"
+    "boot": "node src/onBoot.js",
+    "boot:setup": "cp src/node-onBoot.conf /etc/init/node-onBoot.conf"
   },
   "repository": {
     "type": "git",
