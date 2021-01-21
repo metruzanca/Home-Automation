@@ -1,0 +1,12 @@
+[Unit]
+Description=Home-Automation onBoot.js
+
+[Service]
+Type=oneshot
+ExecStart=/opt/home-automation/src/nodeStart.sh
+# RemainAfterExit=true
+ExecStop=/opt/home-automation/src/nodeStop.sh
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
