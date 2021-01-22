@@ -1,5 +1,9 @@
 # Home-Automation
 
+This repo is just the start of my personal home automation. Currently all thats in here is a service that runs on boot and sends a discord message via webhook comunicating system information such as lan IP. (_My router doesn't let me set fixed IPs :(_ )
+
+I will probably turn this into a mono repo with a bunch of `<name>-service/` directories and onBoot will be one of them.
+
 ## Setup / Installation
 
 ### 1. Clone and Give yourself Permissions
