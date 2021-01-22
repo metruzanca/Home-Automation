@@ -2,7 +2,6 @@
   "name": "home-automation",
   "version": "1.0.0",
   "description": "",
-  "main": "onBoot.js",
   "type": "module",
   "scripts": {
     "boot": "node src/onBoot.js",
