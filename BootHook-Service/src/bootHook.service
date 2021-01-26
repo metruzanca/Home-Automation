@@ -1,5 +1,5 @@
 [Unit]
-Description=Home-Automation onBoot.js
+Description=Home-Automation BootHook
 
 [Service]
 # Type=oneshot
