@@ -1,0 +1,26 @@
+{
+  "name": "home-automation",
+  "version": "1.0.0",
+  "description": "This repo is just the start of my personal home automation.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "setup":"echo \"Todo. But first traefik. Also, can you docker-compose multiple composes files together?\"",
+    "setup:boothook": "cd BootHook-Service; npm i; npm run boot:setup",
+    "setup:rss":"cd RSS-Service; ./start.sh",
+    "backup:rss":"echo \"Todo. look into -v flag on run and see if can upload to mega.nz\"",
+    "setup:traefik":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metruzanca/Home-Automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metruzanca/Home-Automation/issues"
+  },
+  "homepage": "https://github.com/metruzanca/Home-Automation#readme"
+}
